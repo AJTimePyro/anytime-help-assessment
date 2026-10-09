@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <style>
+    .bg { fill: #E6EDFF; }
+    .circle { fill: #1F4FD8; opacity: 0.12; }
+    .icon { stroke: #1F4FD8; }
+    .title { fill: #172033; }
+    .sub { fill: #5B6577; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #162032; }
+      .circle { fill: #3B66F0; opacity: 0.22; }
+      .icon { stroke: #8FAEFF; }
+      .title { fill: #F1F5FC; }
+      .sub { fill: #B0BBD0; }
+    }
+  </style>
+  <rect width="800" height="600" class="bg"/>
+  <circle cx="400" cy="270" r="110" class="circle"/>
+  <g transform="translate(340, 210) scale(5)" class="icon" stroke-width="1.75" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 10v.2A3 3 0 0 1 8.9 16H5a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0Z"/>
+    <path d="M7 16v6"/>
+    <path d="M13 19v3"/>
+    <path d="M12 19h8.3a1 1 0 0 0 .7-1.7L18 14h.3a1 1 0 0 0 .7-1.7L16 9h.2a1 1 0 0 0 .8-1.7L13 3l-1.4 1.4"/>
+  </g>
+  <text x="400" y="440" font-family="sans-serif" font-size="28" font-weight="700" class="title" text-anchor="middle">Park and Trees</text>
+  <text x="400" y="480" font-family="sans-serif" font-size="20" font-weight="600" class="sub" text-anchor="middle">पार्क एवं पेड़-पौधे</text>
+</svg>

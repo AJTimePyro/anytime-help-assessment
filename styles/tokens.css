@@ -1,0 +1,95 @@
+:root,
+[data-theme="light"] {
+  --bg: #f6f8fc;
+  --surface: #ffffff;
+  --surface-raised: #ffffff;
+  --surface-sunken: #eef2f8;
+  --border: #e3e8f0;
+  --border-control: #7d8799;
+  --ink: #172033;
+  --ink-soft: #5b6577;
+  --ink-disabled: #9aa3b5;
+  --primary: #1f4fd8;
+  --on-primary: #ffffff;
+  --primary-ink: #1f4fd8;
+  --primary-container: #e6edff;
+  --on-primary-container: #14307f;
+  --track-empty: #d9dfea;
+  --scrim: rgba(15, 23, 42, 0.45);
+  --focus-ring: #1f4fd8;
+  --on-solid: #ffffff;
+  --img-filter: none;
+
+  /* Status triplets (solid, container, on) */
+  --pending-solid: #d97706;
+  --pending-container: #fff3d6;
+  --pending-on: #8a5a00;
+
+  --inprogress-solid: #7c3aed;
+  --inprogress-container: #eee8ff;
+  --inprogress-on: #4a2ba8;
+
+  --resolved-solid: #109b81;
+  --resolved-container: #ddf4ee;
+  --resolved-on: #0b6b58;
+
+  --danger-solid: #d32f2f;
+  --danger-container: #fde8e8;
+  --danger-on: #a31515;
+
+  --whatsapp: #25d366;
+  --on-whatsapp: #ffffff;
+  --whatsapp-container: #e6f7f2;
+  --whatsapp-on-container: #075e54;
+
+  --shadow-float:
+    0 8px 24px -4px rgba(23, 32, 51, 0.12),
+    0 4px 12px -2px rgba(23, 32, 51, 0.08);
+}
+
+[data-theme="dark"] {
+  --bg: #101522;
+  --surface: #1a2232;
+  --surface-raised: #242e40;
+  --surface-sunken: #131a28;
+  --border: #344054;
+  --border-control: #707c98;
+  --ink: #f1f5fc;
+  --ink-soft: #b0bbd0;
+  --ink-disabled: #5f6b83;
+  --primary: #3b66f0;
+  --on-primary: #ffffff;
+  --primary-ink: #8faeff;
+  --primary-container: #1c2b5c;
+  --on-primary-container: #c9d7ff;
+  --track-empty: #3a465c;
+  --scrim: rgba(0, 0, 0, 0.6);
+  --focus-ring: #8faeff;
+  --on-solid: #101522;
+  --img-filter: brightness(0.88) contrast(1.02);
+
+  /* Status triplets (solid, container, on) */
+  --pending-solid: #fbbf24;
+  --pending-container: #3a2a07;
+  --pending-on: #fcd680;
+
+  --inprogress-solid: #a78bfa;
+  --inprogress-container: #2a1f55;
+  --inprogress-on: #d4c5ff;
+
+  --resolved-solid: #34d3b0;
+  --resolved-container: #0f3b33;
+  --resolved-on: #8debd3;
+
+  --danger-solid: #d13b3b;
+  --danger-container: #3b1616;
+  --danger-on: #ffb4b4;
+
+  --whatsapp: #25d366;
+  --on-whatsapp: #0b1e17;
+  --whatsapp-container: #12382c;
+  --whatsapp-on-container: #5ced96;
+
+  --shadow-float:
+    0 8px 24px -4px rgba(0, 0, 0, 0.5), 0 4px 12px -2px rgba(0, 0, 0, 0.35);
+}
