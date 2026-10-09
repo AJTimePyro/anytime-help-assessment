@@ -328,8 +328,6 @@ export default function HomePage() {
               </div>
               <ChevronRight className="w-5 h-5 text-ink-soft" />
             </Link>
-
-            <WhatsAppButton variant="fab" />
           </>
         )}
 
